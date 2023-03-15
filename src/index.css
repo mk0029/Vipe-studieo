@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  list-style-type: none;
+  box-sizing: border-box;
+  transition: all 300ms ease-in-out;
+}
+.ff_gilroy {
+  font-family: "gilroy";
+}
+.ff_Konexy {
+  font-family: "KonexyPersonal";
+}
+.ff_Inter {
+  font-family: "Inter", sans-serif;
+}
+@font-face {
+  font-family: "gilroy";
+  src: url(./assets//fonts/gilroy/Gilroy-Regular.ttf);
+  src: url(./assets//fonts/gilroy/Gilroy-SemiBold.ttf);
+  src: url(./assets//fonts/gilroy/Gilroy-Bold.ttf);
+}
+@font-face {
+  font-family: "gilroy";
+  src: url(./assets/fonts//KonexyPersonal/KonexyPersonalUse.otf);
+}
+:root {
+  --fs-xsm: 14px;
+  --fs-sm: 16px;
+  --fs-md: 18px;
+  --fs-2xl: 24px;
+  --fs-3xl: 35px;
+  --fs-3xxl: 36px;
+  --fs-4xl: 40px;
+  --fs-4xxl: 48px;
+  --fs-7xl: 72px;
+  /* fontwaight */
+  --fw-regular: 400;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+  /* colors */
+  --text-light-grey: #b2b2b2;
+  --text-grey: #868687;
+  --text-purpel: #6022ea;
+  --text-light-black: #0d0d0d;
+  /* bg */
+  --bg-purpel: #6022ea;
+  /* lh */
+  --lh-2xl: 24px;
+}
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_2xl {
+  font-size: var(--fs-2xl);
+}
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+.fs_3xxl {
+  font-size: var(--fs-3xxl);
+}
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
+.fs_4xxl {
+  font-size: var(--fs-4xxl);
+}
+.fs_7xl {
+  font-size: var(--fs-7xl);
+}
+/* fw */
+.fw_regular {
+  font-weight: var(--fw-regular);
+}
+.fw_semibold {
+  font-weight: var(--fw-semi-bold);
+}
+.fw_bold {
+  font-weight: var(--fw-bold);
+}
+.fw_extrabold {
+  font-weight: var(--fw-extrabold);
+}
+/* color */
+.text_lightGray {
+  color: var(--text-light-grey);
+}
+.text_lightBlack {
+  color: var(--text-light-black);
+}
+.text_Gray {
+  color: var(--text-grey);
+}
+.text_purpel {
+  color: var(--text-purpel);
+}
+/* bg */
+.bg_purpel {
+  background-color: var(--bg-purpel);
+}
+/* lh */
+.lh_2xl {
+  line-height: var(--lh-2xl);
+}
