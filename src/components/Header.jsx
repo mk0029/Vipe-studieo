@@ -7,25 +7,61 @@ import Retry from "../assets/img/svg/Retry_logo.svg";
 function Header() {
   return (
     <>
-      <section className="bg-black py-5">
+      <section className="bg-black pt-4 pb-2 py-md-4 py-xl-5  ">
         <div className=" container z_index">
           <div className="row justify-content-center">
             <div className="col-lg-6">
               <div className="mt-lg-5 mt-xl-0">
-                <h1 className=" ff_Konexy fs_7xl fw-normal text-white  line_after position-relative ">
-                  WordPress Development Agency
+                <h1 className=" ff_Konexy fs_7xl fw-normal text-white  line_after_header position-relative ">
+                  <span
+                    data-aos="fade-down-right"
+                    data-aos-easing="liner"
+                    data-aos-duration="2000"
+                  >
+                    {" "}
+                    WordPress
+                  </span>
+                  <span
+                    data-aos="fade-down-right"
+                    data-aos-easing="liner"
+                    data-aos-duration="3000"
+                  >
+                    {" "}
+                    Development
+                  </span>{" "}
+                  <span
+                    data-aos="fade-down-right"
+                    data-aos-easing="liner"
+                    data-aos-duration="5000"
+                  >
+                    Agency
+                  </span>
                 </h1>
-                <h3 className=" ff_gilroy fw-bold text-white fs_2xl my-3 my-lg-2 my-xxl-4">
+                <h3
+                  className=" ff_gilroy fw-bold text-white fs_2xl my-3 my-lg-2 my-xxl-4"
+                  data-aos="fade-right"
+                  data-aos-easing="liner"
+                  data-aos-duration="2000"
+                >
                   for Enterprise + Friendly Team
                 </h3>
-                <p className=" ff_gilroy fw-normal text_lightGray fs_sm">
+                <p
+                  className=" ff_gilroy fw-normal text_lightGray fs_sm"
+                  data-aos="flip-right"
+                  data-aos-easing="liner"
+                  data-aos-duration="2000"
+                >
                   Vipe Studio is a WordPress Agency for development - a
                   long-term partner for any WordPress service. Websites
                   and,online shops development, maintenance and customization is
                   what we do best.
                 </p>
                 <div className="d-flex gap-2 gap-sm-4 my-4">
-                  <span>
+                  <span
+                    data-aos="zoom-out-up"
+                    data-aos-easing="liner"
+                    data-aos-duration="2000"
+                  >
                     <a
                       href="#"
                       className=" btn_get bg_purpel ff_gilroy fs_xsm fw-semibold text-white "
@@ -33,7 +69,11 @@ function Header() {
                       Get Started
                     </a>
                   </span>
-                  <span>
+                  <span
+                    data-aos="zoom-out-up"
+                    data-aos-easing="liner"
+                    data-aos-duration="2000"
+                  >
                     <a
                       href="#"
                       className=" btn_video ff_gilroy fs_xsm fw-normal text_Gray"
@@ -47,7 +87,12 @@ function Header() {
                 </div>
               </div>
             </div>{" "}
-            <div className="col-lg-6">
+            <div
+              className="col-lg-6"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              data-aos="zoom-in-left"
+            >
               <div className="ms-xl-5 d-flex justify-content-center d-xxl-block my-4 my-xxl-0 z_index2 position-relative  ">
                 <img
                   className=" position-absolute img_grident z_index0"
@@ -69,7 +114,12 @@ function Header() {
         <div className=" container ">
           <div className=" pb-xl-0 pb-lg-4 pb-sm-3 pb-2 ">
             <div className="row justify-content-between">
-              <div className="col-xl-6">
+              <div
+                className="col-xl-6"
+                data-aos="zoom-in-right"
+                data-aos-easing="liner"
+                data-aos-duration="3000"
+              >
                 <h2 className="text-white ff_Konexy fs_3xxl fw-normal">
                   Tell us more....
                 </h2>
@@ -80,9 +130,20 @@ function Header() {
                   laoreet.
                 </p>
               </div>
-              <div className="col-xl-5 mt-4 mt-xl-0">
-                <div className="   ">
-                  <label htmlFor="Searc" className="w-100 position-relative">
+              <div
+                className="col-xl-5 mt-4 mt-xl-0"
+                data-aos="zoom-in-left"
+                data-aos-easing="liner"
+                data-aos-duration="3000"
+              >
+                <div>
+                  <label
+                    htmlFor="Searc"
+                    className="w-100 position-relative"
+                    data-aos="fade-left"
+                    data-aos-easing="liner"
+                    data-aos-duration="2000"
+                  >
                     <img
                       className="SearchIcon position-absolute"
                       src={SearchIcon}
@@ -95,7 +156,12 @@ function Header() {
                       id="Plasehoder"
                     />
                   </label>
-                  <div className="d-flex align-items-center justify-content-sm-between flex-column flex-sm-row mt-2">
+                  <div
+                    className="d-flex align-items-center justify-content-sm-between flex-column flex-sm-row mt-2"
+                    data-aos="fade-up"
+                    data-aos-easing="liner"
+                    data-aos-duration="2000"
+                  >
                     <pre className=" ff_gilroy text-white fs_sm fw-normal overflow-hidden">
                       <a href="#plase">
                         <img className="hover_rotate" src={Retry} alt="retry" />

@@ -14,7 +14,12 @@ function NavBar() {
   return (
     <>
       {" "}
-      <section className=" bg-black">
+      <section
+        className=" bg-black "
+        data-aos="fade-down"
+        data-aos-easing="ease-out"
+        data-aos-duration="2000"
+      >
         <div className="  m-0 m-sm-auto">
           {" "}
           <nav className="pt-3 nav_bg">
