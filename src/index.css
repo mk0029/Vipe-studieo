@@ -55,6 +55,8 @@
   --bg-purpel: #6022ea;
   /* lh */
   --lh-2xl: 24px;
+  /* pY */
+  --py-10: 10px;
 }
 .hover_header_links:hover {
   color: #b2b2b2 !important;
@@ -69,7 +71,12 @@
   bottom: -1px;
   transition: all 300ms ease-in-out;
 }
-
+/* py */
+.py_10 {
+  padding-top: var(--py-10);
+  padding-bottom: var(--py-10);
+}
+/*  */
 .fs_xsm {
   font-size: var(--fs-xsm);
 }
@@ -218,7 +225,7 @@ ul li a:hover {
   color: white !important;
 }
 .cursor_pointer {
-  cursor: help !important;
+  cursor: pointer !important;
 }
 .nav-fix {
   /* min-width: 100vh;/ */
@@ -338,14 +345,14 @@ ul li a:hover {
 @media (max-width: 576px) {
   :root {
     --fs-xsm: 12px;
-    --fs-sm: 14px;
+    --fs-sm: 12px;
     --fs-md: 18px;
     --fs-2xl: 20px;
-    --fs-3xl: 27px;
+    --fs-3xl: 24px;
     --fs-3xxl: 32px;
     --fs-4xl: 25px;
-    --fs-4xxl: 25px;
-    --fs-7xl: 25px;
+    --fs-4xxl: 20px;
+    --fs-7xl: 34px;
   }
   .have_box {
     transform: translateY(30%) !important;
@@ -360,7 +367,7 @@ ul li a:hover {
     --fs-3xl: 35px;
     --fs-3xxl: 36px;
     --fs-4xl: 32px;
-    --fs-4xxl: 48px;
+    --fs-4xxl: 36px;
     --fs-7xl: 40px;
   }
 }
@@ -429,7 +436,7 @@ ul li a:hover {
     --fs-3xl: 26px;
     --fs-3xxl: 36px;
     --fs-4xl: 40px;
-    --fs-4xxl: 48px;
+    --fs-4xxl: 44px;
     --fs-7xl: 48px;
   }
 }
@@ -526,6 +533,24 @@ ul li a:hover {
   border: 0;
 }
 .img_go_to_top {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
+  animation: Gotop 3s ease-in-out 2s infinite alternate;
+}
+@keyframes Gotop {
+  0% {
+    top: -20px;
+  }
+  25% {
+    top: -10px;
+  }
+  50% {
+    top: -20px;
+  }
+  75% {
+    top: 0px;
+  }
+  100% {
+    top: -10px;
+  }
 }

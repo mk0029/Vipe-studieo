@@ -113,7 +113,7 @@ function NavBar() {
                     </a>
                   </li>
 
-                  <span className="text-white ff_gilroy fs_md bg_purpel  btn_nav d-inline-block ms-2 ">
+                  <span className="text-white ff_gilroy fs_md bg_purpel cursor_pointer  btn_nav d-inline-block ms-2 ">
                     Contact Us
                   </span>
 
@@ -234,7 +234,7 @@ function NavBar() {
                       </a>
                     </li>
                     <span className="text-white ff_gilroy fs_sm bg_purpel  btn_nav d-inline-block ">
-                      Contact Us
+                      <a href="#"> Contact Us</a>
                     </span>
                     <li>
                       <Dropdown className="text-white ff_gilroy fs_sm ">

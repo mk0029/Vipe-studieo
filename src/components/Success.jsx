@@ -6,15 +6,21 @@ import Guides from "../Guides";
 function Success() {
   return (
     <>
-      <section className=" py-5">
+      <section className=" py-xl-5 py-4 pb-5 section_susses">
         <div className="container">
-          <div className="row align-items-center pt-lg-5 mt-4">
+          <div className="row flex-column-reverse flex-md-row align-items-center pt-lg-5 mt-4">
             <div
               className="col-md-4"
               data-aos="fade-right"
               data-aos-duration="2000"
             >
-              <img className=" w-100" src={spaceMan} alt="spaceMan" />
+              <div className="d-flex justify-content-center">
+                <img
+                  className="my-md-0 mt-4 mt-sm-5 w-100"
+                  src={spaceMan}
+                  alt="spaceMan"
+                />
+              </div>
             </div>
             <div className="col-md-8">
               <div className=" ps-md-4 mt-4 mt-md-0">

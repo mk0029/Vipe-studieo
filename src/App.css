@@ -1,4 +1,29 @@
 /* Headerr 3 sect css */
+/* section {
+  overflow: hidden;
+} */
+.section_susses {
+  overflow: initial;
+}
+.Svg_Star {
+  width: 107.52px;
+  height: 26.52px;
+}
+.Svg_Star2 {
+  width: 179.6px;
+  height: 33.67px;
+}
+.box_pos {
+  position: absolute;
+  width: 228px;
+  height: 119px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  bottom: 20px;
+  left: 26px;
+}
 .hover_header_links:hover::after {
   width: 100%;
   left: 0;
@@ -19,17 +44,21 @@
   padding: 12px 24px 12px 24px !important;
   display: inline-block !important;
   font-size: 16px;
+  z-index: 123 !important;
+  position: relative;
 }
 .btn_video {
   border-radius: 80px !important;
   padding: 10px 24px 10px 24px !important;
   display: inline-block !important;
-  margin-top: -7px;
+  /* margin-top: -7px; */
   transition: all 300ms ease-in-out !important;
+  z-index: 123 !important;
+  position: relative;
 }
 .btn_video .btnvid {
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
 }
 .btn_video:hover {
   box-shadow: 0px 4px 20px rgba(96, 34, 234) !important;
@@ -89,24 +118,19 @@
   z-index: 1;
 }
 .bg_tellUs input {
-  border: 0;
+  border: none !important;
+  outline: none;
   width: 100%;
   height: 64px;
   background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  /* border: 1px solid rgba(255, 255, 255, 0.1); */
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 80px;
   padding-left: 30px;
   padding-right: 30px;
   color: white;
 }
-.bg_tellUs ::placeholder {
-  font-family: "gilroy";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: white;
-}
+
 .bg_tellUs label:focus-visible {
   border: 0 !important;
 }
@@ -255,17 +279,47 @@ footer input {
   box-shadow: 0px 20px 60.5714px #e5e9f6;
   border-radius: 16px;
 }
+.bg_tellUs ::placeholder {
+  font-family: "gilroy" !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  color: white !important;
+  border: 0 !important;
+}
 
 @media (max-width: 576px) {
+  .Svg_Star {
+    width: 64.52px;
+    height: 22.52px;
+  }
+  .Svg_Star2 {
+    width: 100.6px;
+    height: 18.67px;
+  }
+  .box_pos {
+    position: absolute;
+    width: 174px;
+    height: 70px;
+    bottom: 10px;
+    left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
   ::placeholder {
-    font-size: 12px;
+    font-size: 12px !important;
   }
   .btn_get {
     padding: 12px 18px 12px 18px !important;
     font-size: 12px;
   }
   .btn_video {
-    padding: 10px 18px 10px 18px !important;
+    padding: 8px 18px 8px 18px !important;
+    margin-top: 0px;
+  }
+  .btn_video .btnvid {
+    width: 25px;
+    height: 25px;
   }
   .bg_laye_img {
     left: -6%;
@@ -278,6 +332,19 @@ footer input {
     bottom: -6%;
     width: 50%;
     z-index: 1;
+  }
+  .bg_tellUs ::placeholder {
+    font-size: 13px !important;
+    padding-left: 0px !important;
+    padding-right: 0 !important;
+  }
+  .bg_tellUs input {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 60px;
+  }
+  .transform_translet_y {
+    transform: translateY(10%);
   }
 }
 @media (min-width: 576px) {
@@ -302,11 +369,25 @@ footer input {
     width: 50%;
     z-index: 1;
   }
-  .btn_video {
-    margin-top: -2px;
-  }
 }
 @media (min-width: 992px) {
+  .Svg_Star {
+    width: 95.52px;
+    height: 22.52px;
+  }
+  .Svg_Star2 {
+    width: 150.6px;
+    height: 25.67px;
+  }
+  .box_pos {
+    position: absolute;
+    width: 210px;
+    height: 110px;
+    bottom: 20px;
+    left: 26px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+  }
   .bg_laye_img {
     left: -14%;
     bottom: 44%;
@@ -321,6 +402,21 @@ footer input {
   }
 }
 @media (min-width: 1200px) {
+  .Svg_Star {
+    width: 95.52px;
+    height: 22.52px;
+  }
+  .Svg_Star2 {
+    width: 150.6px;
+    height: 25.67px;
+  }
+  .box_pos {
+    position: absolute;
+    width: 210px;
+    height: 110px;
+    bottom: 20px;
+    left: 0px;
+  }
   .Yahoo_news {
     width: 150px;
     height: 25px;
@@ -348,10 +444,7 @@ footer input {
   .w_xl_75 {
     width: 75%;
   }
-  .btn_video {
-    margin-top: -2px;
-  }
-  .btn_nav {
+  */ .btn_nav {
     padding: 8px 10px 8px 10px !important;
   }
   .min_vh_xl_70 {
@@ -363,6 +456,10 @@ footer input {
   }
 }
 @media (min-width: 1400px) {
+  .box_pos {
+    bottom: 20px;
+    left: 26px;
+  }
   .Yahoo_news {
     width: 171px;
     height: 27px;
@@ -384,8 +481,20 @@ footer input {
   }
 }
 @media (min-width: 1600px) {
-  .btn_video {
-    margin-top: -7px;
+  .Svg_Star {
+    width: 107.52px;
+    height: 26.52px;
+  }
+  .Svg_Star2 {
+    width: 179.6px;
+    height: 33.67px;
+  }
+  .box_pos {
+    position: absolute;
+    width: 228px;
+    height: 119px;
+    bottom: 20px;
+    left: 26px;
   }
 }
 @media (min-width: 1700px) {

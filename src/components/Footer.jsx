@@ -26,7 +26,7 @@ function Footer() {
             <div className="col-md-4">
               <div className=" d-flex justify-content-between align-items-center bg-white rounded-5 px-4 w-100 mt-4 mt-md-0">
                 <input
-                  className=" bg-transparent border_none outline_none w-100 pe-4 py-2 ff_gilroy fw_regular fs_sm"
+                  className=" bg-transparent border_none outline_none w-100 pe-4 py_10 ff_gilroy fw_regular fs_sm"
                   type="text"
                   placeholder="Search here...."
                 />
