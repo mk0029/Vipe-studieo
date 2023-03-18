@@ -15,7 +15,7 @@ function NavBar() {
     <>
       {" "}
       <section
-        className=" bg-black "
+        className=" bg-black navBar "
         data-aos="fade-down"
         data-aos-easing="ease-out"
         data-aos-duration="2000"
@@ -23,7 +23,7 @@ function NavBar() {
         <div className="  m-0 m-sm-auto">
           {" "}
           <nav className="pt-3 nav_bg">
-            <div className=" container px-2 px-sm-0">
+            <div className=" container px-2 px-sm-0 z_index_123">
               <div
                 data-aos="fade-down"
                 data-aos-delay="500"
@@ -43,7 +43,7 @@ function NavBar() {
                       <img src={Logo} alt="/" />
                     </a>
                   </li>
-                  <li>
+                  <li className="z_index_123">
                     <Dropdown className="text-white ff_gilroy fs_sm ">
                       <Dropdown.Toggle
                         variant="success"
@@ -63,7 +63,7 @@ function NavBar() {
                       </Dropdown.Menu>
                     </Dropdown>
                   </li>
-                  <li>
+                  <li className="z_index_123">
                     <Dropdown className="text-white ff_gilroy fs_sm ">
                       <Dropdown.Toggle variant="success" id="dropdown-basic">
                         Services
@@ -79,12 +79,12 @@ function NavBar() {
                       </Dropdown.Menu>
                     </Dropdown>
                   </li>
-                  <li>
+                  <li className="z_index_123">
                     <a className="text-white ff_gilroy fs_sm" href="#">
                       Portfolio
                     </a>
                   </li>
-                  <li>
+                  <li className="z_index_123">
                     <Dropdown className="text-white ff_gilroy fs_sm ">
                       <Dropdown.Toggle variant="success" id="dropdown-basic">
                         About
@@ -100,14 +100,14 @@ function NavBar() {
                       </Dropdown.Menu>
                     </Dropdown>
                   </li>
-                  <li>
+                  <li className="z_index_123">
                     <a className="text-white ff_gilroy fs_sm" href="#">
                       Blog
                     </a>
                   </li>
                 </ul>
                 <ul className="d-flex gap-xxl-3 gap-2 z_index_123  py-3  d-none d-xl-flex align-items-center mb-0 justify-content-end">
-                  <li>
+                  <li className="z_index_123">
                     <a className="text-white ff_gilroy fs_sm" href="#">
                       1 888 266-6917 (eu?)
                     </a>
@@ -117,7 +117,7 @@ function NavBar() {
                     Contact Us
                   </span>
 
-                  <li>
+                  <li className="z_index_123">
                     <Dropdown className="text-white ff_gilroy me-2 ">
                       <Dropdown.Toggle
                         variant="success"
@@ -160,7 +160,7 @@ function NavBar() {
                   <ul class="ps-0 mb-0 d-flex flex-column py-5 align-items-center list-unstyled gap-3 gap-md-4 pt-3 transition">
                     <div className="d-flex flex-column gap-3 gap-md-4 d-lg-none align-items-center">
                       {" "}
-                      <li>
+                      <li className="z_index_123">
                         <Dropdown className="text-white ff_gilroy fs_sm ">
                           <Dropdown.Toggle
                             variant="success"
@@ -179,7 +179,7 @@ function NavBar() {
                           </Dropdown.Menu>
                         </Dropdown>
                       </li>
-                      <li>
+                      <li className="z_index_123">
                         <Dropdown className="text-white ff_gilroy fs_sm ">
                           <Dropdown.Toggle
                             variant="success"
@@ -198,7 +198,7 @@ function NavBar() {
                           </Dropdown.Menu>
                         </Dropdown>
                       </li>
-                      <li>
+                      <li className="z_index_123">
                         <a className="text-white ff_gilroy fs_sm" href="#">
                           Portfolio
                         </a>
@@ -223,12 +223,12 @@ function NavBar() {
                         </Dropdown>
                       </li>
                     </div>
-                    <li>
+                    <li className="z_index_123">
                       <a className="text-white ff_gilroy fs_sm" href="#">
                         Blog
                       </a>
                     </li>
-                    <li>
+                    <li className="z_index_123">
                       <a className="text-white ff_gilroy fs_sm" href="#">
                         1 888 266-6917 (eu?)
                       </a>
@@ -236,7 +236,7 @@ function NavBar() {
                     <span className="text-white ff_gilroy fs_sm bg_purpel  btn_nav d-inline-block ">
                       <a href="#"> Contact Us</a>
                     </span>
-                    <li>
+                    <li className="z_index_123">
                       <Dropdown className="text-white ff_gilroy fs_sm ">
                         <Dropdown.Toggle variant="success" id="dropdown-basic">
                           <img src={glob} alt="glob" /> Eng
