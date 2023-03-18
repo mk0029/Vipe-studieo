@@ -13,11 +13,9 @@ function PreLoader() {
     if (loder) {
       document.body.style.overflow = "hidden";
       document.documentElement.scrollTop = 0;
-      //   AOS.init({
-      //     once: true,
-      //   });
     } else {
       document.body.style.overflow = "initial";
+      document.documentElement.scrollTop = 0;
     }
   }
   return (
